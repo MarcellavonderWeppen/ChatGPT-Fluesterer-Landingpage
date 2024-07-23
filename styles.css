@@ -1,0 +1,174 @@
+/* Allgemeine Stile */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 100px 200px;
+  background-color: #222;
+  color: #eee;
+  scroll-behavior: smooth;
+}
+
+ul {
+  text-align: left;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+/* Button-Stile */
+button,
+.scroll-button {
+  font-size: 1.5em;
+  margin: 1em auto;
+  background-color: #f90;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px; /* Abgerundete Ecken */
+  display: inline-block;
+  text-decoration: none; /* Entfernt die Standard-Link-Unterstreichung */
+}
+
+button:hover,
+.scroll-button:hover {
+  background-color: #e80;
+}
+
+/* Header-Stile */
+.header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font-size: 4rem;
+}
+
+.header h2 {
+  margin: 0;
+  padding-bottom: 2em;
+  font-size: 2em;
+}
+
+.header p {
+  margin: 1rem 1rem 4rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Abschnitt-Stile */
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+/* Spezifische Stile für Bilder innerhalb von .section */
+.section > img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
+}
+
+.list {
+  width: 60%; /* oder ein anderer Wert je nach gewünschter Breite */
+  margin: 0 auto; /* Zentriert die Section horizontal */
+  padding-top: 0 !important;
+}
+
+/* Testimonials-Stile */
+.testimonial {
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  margin: 2rem auto;
+  align-items: center;
+}
+
+.testimonial-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 40px;
+  object-fit: cover; /* Stellt sicher, dass das Bild die Dimensionen füllt und dabei nicht verzerrt wird */
+}
+
+.testimonial-content {
+  max-width: 80%;
+  text-align: left;
+}
+
+.testimonial-content p {
+  margin: 5px 0;
+}
+
+.person {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+/* Footer-Stile */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer p {
+  margin: 10rem 0;
+  font-size: 1rem;
+}
+
+/* Anmeldeabschnitt-Stile */
+.signup {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.signup h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form input {
+  font-size: 1.2em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+}
